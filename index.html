@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>スタートアップ求人 - 未来を創る仲間を募集中</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .bg-custom-blue { background-color: #3498db; }
+        .bg-custom-green { background-color: #2ecc71; }
+        .text-custom-blue { color: #3498db; }
+        .text-custom-green { color: #2ecc71; }
+    </style>
+</head>
+<body>
+    <!-- ナビゲーションバー -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-custom-blue">
+        <div class="container">
+            <a class="navbar-brand" href="#">TechStartup株式会社</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">会社概要</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#jobs">募集職種</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">お問い合わせ</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ヒーローセクション -->
+    <header class="bg-custom-green text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4">未来を創る仲間を募集中</h1>
+            <p class="lead">私たちと一緒に、テクノロジーで世界を変えませんか？</p>
+            <a href="#jobs" class="btn btn-light btn-lg mt-3">募集職種を見る</a>
+        </div>
+    </header>
+
+    <!-- 会社概要セクション -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4 text-custom-blue">会社概要</h2>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="チームワーク" class="img-fluid rounded">
+                </div>
+                <div class="col-md-6">
+                    <p>TechStartup株式会社は、革新的なテクノロジーソリューションを提供する急成長中のスタートアップです。私たちは、人工知能、ブロックチェーン、IoTなどの最先端技術を活用し、社会課題の解決に取り組んでいます。</p>
+                    <p>私たちのミッションは、テクノロジーの力で世界をより良い場所にすることです。そのために、情熱的で創造的な人材を求めています。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 募集職種セクション -->
+    <section id="jobs" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4 text-custom-green">募集職種</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">ソフトウェアエンジニア</h5>
+                            <p class="card-text">最新のテクノロジーを使用して、革新的な製品開発に携わります。</p>
+                            <a href="#" class="btn btn-outline-primary">詳細を見る</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">UX/UIデザイナー</h5>
+                            <p class="card-text">ユーザー中心の設計思想に基づき、魅力的なインターフェースを作成します。</p>
+                            <a href="#" class="btn btn-outline-primary">詳細を見る</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">データサイエンティスト</h5>
+                            <p class="card-text">ビッグデータを分析し、ビジネス上の重要な意思決定をサポートします。</p>
+                            <a href="#" class="btn btn-outline-primary">詳細を見る</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- お問い合わせフォーム -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4 text-custom-blue">お問い合わせ</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">お名前</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">メールアドレス</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">メッセージ</label>
+                    <textarea class="form-control" id="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">送信</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- フッター -->
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>&copy; 2023 TechStartup株式会社. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
